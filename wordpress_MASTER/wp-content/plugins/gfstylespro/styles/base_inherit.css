@@ -1,0 +1,397 @@
+/* Clean up */
+.gf_stylespro .gform_fields,
+.gf_stylespro .gfield {
+    margin: 0;
+    float: left;
+    display: block;
+    width: 100%;
+}
+.gf_stylespro .gf_left{
+    clear: left;
+}
+.gf_stylespro .gf_right{
+    clear: right;
+    float: right;
+}
+.gf_stylespro .gform_fields {
+    width: 100%;
+    margin-right: 0%;
+    padding: 0;
+}
+.ginput_container {
+    line-height: 0;
+}
+.ginput_container > * {
+    line-height: 1;
+}
+.gf_stylespro_wrapper,
+.gf_stylespro.gf_stylespro_wrapper {
+    padding: 1em 0 1em 2%;
+    display: inline-block;
+    width: 100%;
+}
+.gf_stylespro .gform_description {
+    display: block;
+    margin-bottom: 2em;
+    margin-right: 2%;
+ }
+ .gf_stylespro .instruction {
+    margin-top: .5em;
+    font-size: .9em;
+}
+.gf_stylespro .gform_title {
+    padding-top: 1em;
+    font-family: inherit;
+    margin-right: 2%;
+}
+.gf_stylespro .gf_progressbar_title,
+.gf_stylespro .gsection_title {
+    font-family: inherit;
+    color: inherit;
+    font-size: 1.7em;
+}
+.gf_stylespro .chosen-choices,
+.gf_stylespro .chosen-results,
+.gf_stylespro .gfield,
+.gf_stylespro .gfield_radio > li,
+.gf_stylespro .gfield_checkbox > li,
+.gf_stylespro .chosen-container-multi .chosen-choices > li {
+    list-style: none; /* Redundant */
+    margin-left: 0;
+}
+
+.gf_stylespro .gfield_radio .ginput_container,
+.gf_stylespro .gfield_checkbox .ginput_container {
+	margin-top: -.5em;
+}
+.gf_stylespro .gfield_radio,
+.gf_stylespro .gfield_checkbox{
+	margin-top: -.3em;
+}
+.gf_stylespro input,
+.gf_stylespro select, 
+.gf_stylespro textarea {
+	/* background: none; */
+	/* -webkit-appearance: none; */
+}
+.gf_stylespro .gform_body,
+.gf_stylespro .gform_header,
+.gf_stylespro .gform_footer {
+    float: left;
+}
+.gf_stylespro .gfield_list {
+    width: 100%;
+    margin: 0;
+}
+.gf_stylespro .gfield_list,
+.gf_stylespro .gfield_list td {
+    border: 0;
+}
+.gf_stylespro .gfield_list_icons,
+.gf_stylespro .gfield_list_cell {
+    padding: .3em 0;
+}
+.gf_stylespro .gfield_list_cell {
+    padding-right: .3em;
+}
+.gf_stylespro .gfield_list_icons {
+    padding-left: .3em;
+}
+.gf_stylespro .gfield_list_icons {
+    width: 52px;
+}
+.gfield_list th {
+    border: 0;
+    padding: 0 .5em 0 0;
+}
+
+.gf_stylespro input[type="date"]:focus,
+.gf_stylespro input[type="time"]:focus,
+.gf_stylespro input[type="datetime-local"]:focus,
+.gf_stylespro input[type="week"]:focus,
+.gf_stylespro input[type="month"]:focus,
+.gf_stylespro input[type="text"]:focus,
+.gf_stylespro input[type="email"]:focus,
+.gf_stylespro input[type="url"]:focus,
+.gf_stylespro input[type="password"]:focus,
+.gf_stylespro input[type="search"]:focus,
+.gf_stylespro input[type="tel"]:focus,
+.gf_stylespro input[type="number"]:focus,
+.gf_stylespro textarea:focus {
+	background: none;
+}
+.gf_stylespro input[type=button],
+.gf_stylespro input[type=submit],
+.form_saved_message input[type=submit] {
+    /* padding: 0.5em 1em; */
+    display: inline-block;
+    white-space: normal;
+    overflow: initial;
+}
+.gf_stylespro .button + .button,
+.gform_page_footer .button + input[type="image"] {
+	margin-left: 1.5em;
+}
+.gform_page_footer input[type="image"] {
+    padding: 0;
+    background: none;
+    vertical-align: middle;
+}
+
+/* Date field */
+.gf_stylespro .ui-datepicker-trigger {
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+.gf_stylespro .clear-multi > div {
+    display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: top;
+}
+.gf_stylespro .gfield_date_day input[type=text],
+.gf_stylespro .gfield_date_month input[type=text],
+.gf_stylespro .ginput_container_time input[type=text],
+.gf_stylespro .ginput_container_time input[type=number] {
+    /* width: 2.2em; */
+    /* max-width: 100%; */
+    box-sizing: content-box;
+}
+.gf_stylespro .gfield_date_year input[type=text],
+.gf_stylespro .ginput_container_time input,
+.gf_stylespro .ginput_container_time select,
+.gf_stylespro .ginput_container_time.has_gfsp_icn select {
+    /* width: 3.5em; */
+    max-width: 100%;
+}
+/* HTML 5 fields */
+.gf_stylespro .gfield_date_day input[type=number],
+.gf_stylespro .gfield_date_month input[type=number] {
+    width: 4.2em;
+}
+.gf_stylespro .gfield_date_year input[type=number] {
+    width: 5.5em;
+}
+.gf_stylespro .clear-multi input,
+.gf_stylespro .clear-multi input[type=text] {
+    display: block;
+}
+.gf_stylespro .ginput_container_date select {
+	padding-right: 1.1em;
+}
+.gf_stylespro .ginput_container_date input[type=text],
+.gf_stylespro .ginput_container_time input[type=text],
+.gf_stylespro .ginput_container_time input[type=number]
+/* Avia builder conflict fix */
+#top .gf_stylespro .ginput_container_date input  {
+    display: inline-block;
+    margin-bottom: 0;
+}
+#top .gf_stylespro .gfield_date_year input[type=text],
+#top .gf_stylespro .ginput_container_time input,
+#top .gf_stylespro .ginput_container_time select {
+    width: 3.5em;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: .25em;
+}
+.ginput_container_date label,
+.ginput_container_time label {
+    display: block;
+    margin-top: .15em;
+}
+.gf_stylespro .ginput_container_time.gfield_time_hour {
+    margin-right: 0;
+}
+
+.has_gfsp_icn.ginput_container_date:first-child label,
+.has_gfsp_icn.ginput_container_time:first-child label {
+    margin-left: 2.2em;
+}
+.gf_icon_after .has_gfsp_icn.ginput_container_date:first-child label,
+.gf_icon_after .has_gfsp_icn.ginput_container_time:first-child label {
+    margin-left: 0em;
+}
+.gf_hide_complex_label .ginput_container_date label {
+    display: none;
+}
+/* Width */
+.gf_stylespro .gform_body {
+    width: 100%;
+    float: left;
+    display: block;
+}
+.gf_stylespro .gsection {
+    margin: 1.5em 0 1em 0;
+    border-bottom: 1px solid silver;
+}
+.gf_stylespro .gfield h2.gsection_title {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+}
+
+/* Spacing */
+.gf_stylespro .gfield {
+    margin-bottom: 1.5em;
+    max-width: 98%;
+}
+.gf_stylespro .gfield_label {
+	margin-bottom: 0.2em;
+	display: block;
+	font-size: 1em;
+}
+.gf_stylespro .ginput_container > ul {
+    margin: -.3em 0 0em 0;
+    margin-left: 0 !important;
+    padding: 0;
+    list-style: none;
+ }
+.gf_stylespro .gform_footer {
+    margin-top: .5em;
+    padding: 1em 0em;
+    border-top: 1px solid #D6D6D6;
+    float: left;
+    width: 98%;
+    margin-right: 2%;
+}
+
+/* Placeholders */
+.gf_stylespro *::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-opacity:1;
+    -khtml-opacity: 1;
+    color: #adadad;
+}
+.gf_stylespro *:-moz-placeholder {		/* FF 4-18 */
+    opacity:  1;
+    color: #adadad;
+}
+.gf_stylespro *::-moz-placeholder {		/* FF 19+ */
+/*     opacity:  1;
+    color: #adadad; */
+}
+.gf_stylespro *:-ms-input-placeholder { /* IE 10+ */
+/*     opacity:  1;
+    color: #adadad; */
+}
+.gf_stylespro placeholder,
+.gf_stylespro .gf_placeholder {
+/*     opacity:  1;
+    color: #adadad; */
+}
+.gf_stylespro input,
+.gf_stylespro select,
+.gf_stylespro textarea,
+.gf_stylespro input[type="text"],
+.gf_stylespro input[type="email"],
+.gf_stylespro input[type="url"],
+.gf_stylespro input[type="number"],
+.gf_stylespro input[type="tel"],
+.gf_stylespro input[type="password"],
+.gf_stylespro input[type="search"],
+.gfsp_icon,
+.gf_stylespro .chosen-choices {
+/* 	background: none;
+	border: 1px solid silver;
+	padding: 0.5em .5em;
+	font-size: 1em;
+	line-height: normal;
+	outline: none;
+	margin: 0;
+	height: auto;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	display: inline-block;
+	box-sizing: border-box; */
+}
+.gfsp_icon{
+    border: none;
+}
+.gf_stylespro select {
+/* 	-webkit-appearance: none; */
+/* 	-moz-appearance: none; */
+/* 	background: url(../icons/caret.svg) center right; */
+/* 	background-size: 0.7em; */
+/* 	background-repeat: no-repeat; */
+}
+
+/* Radio and Checkboxes */
+.gf_stylespro_wrapper .gf_stylespro input[type="checkbox"],
+.gf_stylespro_wrapper .gf_stylespro input[type="radio"] {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+.gf_stylespro input[type=checkbox]:not(old),
+.gf_stylespro input[type=radio   ]:not(old){
+/*     display   : none;
+    width     : 0em;
+    margin    : 0;
+    padding   : 0;
+    font-size : 1em;
+    opacity   : 0; */
+}
+.gf_stylespro input[type=checkbox]:not(old) + label,
+.gf_stylespro input[type=radio   ]:not(old) + label{
+    display      : inline-block;
+    line-height: 1.2em;
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+}
+.gf_stylespro input[type=checkbox]:not(old) + label:before,
+.gf_stylespro input[type=radio   ]:not(old) + label:before{
+/* 	content: ' ';
+	font-weight: bold;
+	color: #C0C0C0;
+	padding: 0;
+	display          : inline-block;
+	border-radius    : 0.25em;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	background       : rgb(224,224,224);
+	text-align  : center;
+	line-height: 1;
+	width: 1em;
+	margin-right: .3em;
+	background-image :-moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+	background-image :-ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+	background-image :-o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+	background-image :-webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+	background-image : linear-gradient(rgb(240,240,240),rgb(224,224,224));
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	text-indent: 0; */
+}
+.gf_stylespro input[type=checkbox]:not(old):checked + label:before,
+.gf_stylespro input[type=radio   ]:not(old):checked + label:before{
+/*     background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+    color       : rgb(153,204,102);
+    text-shadow : 0 0 0.0714em rgb(115,153,77);
+    -moz-box-shadow: 0px 0px 4px;
+    -webkit-box-shadow: 0px 0px 4px;
+    box-shadow: 0px 0px 4px;
+    overflow: visible; */
+}
+.gf_stylespro input[type=checkbox]:not(old):checked + label:before{
+/*     content: '\2713\fe0e'; */
+}
+.gf_stylespro input[type=radio]:not(old):checked + label:before{
+/*     content: '\2717\fe0e'; */
+}
+.gf_stylespro input[type="checkbox"]:disabled + label,
+.gf_stylespro input[type="radio"]:disabled + label{
+/* 	opacity: .5; */
+}
+
+.ginput_container_fileupload .gfsp_icon,
+.ginput_container_post_image .gfsp_icon,
+.ginput_container_fileupload input,
+.ginput_container_post_image input {
+	/* vertical-align: middle; */
+}

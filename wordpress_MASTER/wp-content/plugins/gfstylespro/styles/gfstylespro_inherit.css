@@ -1,0 +1,70 @@
+@import 'base_inherit.css';
+
+@import 'common.css';
+
+/* Common overrides */
+.gf_stylespro .gform_button_select_files {
+    margin: 0;
+}
+.gf_stylespro .gfield_radio li:last-child,
+.gf_stylespro .gfield_checkbox li:last-child {
+    margin-bottom: -.2em;
+}
+.gf_stylespro .gfsp_dot input[type=checkbox]:not(old) + label:before,
+.gf_stylespro .gfsp_dot input[type=radio   ]:not(old) + label:before{
+    padding: 0px 9px;
+}
+.gf_stylespro .gfsp_draw input[type=checkbox]:not(old) + label:after,
+.gf_stylespro .gfsp_draw input[type=radio]:not(old) + label:after{
+    left: 0em;
+}
+/* Dynamic */
+.gfsp_icon {
+    box-sizing: border-box;
+    height: 2.5em; /* Default. Should be determined by field height later */
+    display: inline-block;
+    vertical-align: top;
+}
+.gf_icn_inset.gf_icon_after .ginput_container:not(.ginput_complex):not(.ginput_container_date):not(.ginput_container_time) select,
+.gf_icn_inset.gf_icon_after .ginput_container.ginput_complex span:first-child select,
+.gf_icn_inset.gf_icon_after .ginput_container_date:last-child > select,
+.gf_icn_inset.gf_icon_after .ginput_container_time:last-child > select {
+    -webkit-appearance: none;
+	-moz-appearance: none;
+  	background-image: url(../icons/caret.svg);
+  	background-size: 0.7em;
+    background-repeat: no-repeat;
+  	background-position: center right 2.2em;
+
+}
+.gf_stylespro.sp_inherit .gsurvey-rating input[type=radio ]:not(old) + label {
+	color: transparent;
+}
+.gf_stylespro .gfsp_o_shade input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_o_shade input[type=radio]:not(old),
+.gf_stylespro .gfsp_toggle input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_toggle input[type=radio]:not(old),
+.gf_stylespro .gfsp_draw input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_draw input[type=radio]:not(old),
+.gf_stylespro .gfsp_dot input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_dot input[type=radio]:not(old),
+.gf_stylespro .gfsp_ios input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_ios input[type=radio]:not(old),
+.gf_stylespro .gfsp_flip input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_flip input[type=radio]:not(old),
+.gf_stylespro .gfsp_o_frame input[type=checkbox]:not(old),
+.gf_stylespro .gfsp_o_frame input[type=radio]:not(old),
+.gf_stylespro .o-custom-border input[type=checkbox],
+.gf_stylespro .o-custom-border input[type=radio],
+.gf_stylespro .gf_list_inline.gfsp_o_shade input[type=checkbox],
+.gf_stylespro .gf_list_inline.gfsp_o_shade input[type=radio],
+.gf_stylespro .gfield.o-shadowbox input[type=checkbox],
+.gf_stylespro .gfield.o-shadowbox input[type=radio],
+.gf_stylespro .gfsp_o_list input[type=checkbox],
+.gf_stylespro .gfsp_o_list input[type=radio] {
+    opacity: 0;
+    position: absolute;
+}
+.gfsp_o_frame  li:not(.gfsp_choice_icn):not(.gfsp_choice_img) :checked + label:before {
+    border: 0;
+}
